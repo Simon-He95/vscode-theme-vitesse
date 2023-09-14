@@ -1,7 +1,7 @@
 {
   "name": "theme-vitesse",
   "displayName": "Vitesse Theme",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "packageManager": "pnpm@7.5.0",
   "description": "Vitesse theme for VS Code",
   "categories": [
@@ -30,7 +30,7 @@
     "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
     "vscode:prepublish": "npm run build",
     "lint": "eslint .",
-    "release": "npm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies"
+    "release": "npm run build && bumpp --commit --tag --push --all && vsce publish --no-dependencies"
   },
   "contributes": {
     "themes": [
@@ -83,5 +83,8 @@
     "vscode": "^1.43.0"
   },
   "icon": "icon.png",
-  "preview": true
+  "preview": true,
+  "dependencies": {
+    "bumpp": "^9.2.0"
+  }
 }
