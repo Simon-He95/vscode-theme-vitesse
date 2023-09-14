@@ -58,6 +58,11 @@
         "label": "Vitesse Dark Soft",
         "uiTheme": "vs-dark",
         "path": "./themes/vitesse-dark-soft.json"
+      },
+      {
+        "label": "Vitesse Dragon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vitesse-Dragon.json"
       }
     ]
   },
