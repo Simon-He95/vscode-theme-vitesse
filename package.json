@@ -1,7 +1,7 @@
 {
   "name": "vitesse-theme-colorful",
-  "displayName": "Vitesse Theme Colorful",
-  "version": "0.0.3",
+  "displayName": "Vitesse Theme Colorful X",
+  "version": "0.0.4",
   "packageManager": "pnpm@7.5.0",
   "description": "Vitesse theme for VS Code",
   "categories": [
