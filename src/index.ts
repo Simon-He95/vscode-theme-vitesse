@@ -56,5 +56,13 @@ fs.mkdir('./themes', { recursive: true })
         VitesseThemes:DragonThemes
       }), null, 2)}\n`,
     ),
+    fs.writeFile(
+      './themes/vitesse-dragon-dark.json',
+      `${JSON.stringify(getTheme({
+        style: 'dark',
+        name: 'Vitesse Dragon Dark',
+        VitesseThemes:DragonThemes
+      }), null, 2)}\n`,
+    ),
   ]))
   .catch(() => process.exit(1))

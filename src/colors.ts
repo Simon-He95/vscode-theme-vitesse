@@ -60,12 +60,12 @@ export const VitesseThemes = {
 
 // [dark, light]
 export const DragonThemes = {
-  primary: ['#7c6490', '#7c6490'],
-  foreground: ['#4a3c53', '#4a3c53'],
-  activeForeground: ['#bfbaaa', '#0091ca'],
-  secondaryForeground: ['#dedcd590', '#056287'],
-  ignored: ['#dedcd530', '#393a3450'],
-  faded: ['#dedcd510', '#393a3410'],
+  primary: ['#4a3c53', '#7c6490'],
+  foreground: ['#574563', '#4a3c53'],
+  activeForeground: ['#bfbaaa', '#6c401b'],
+  secondaryForeground: ['#dedcd590', '#c2861d'],
+  ignored: ['#dedcd530', '#88aaa5'],
+  faded: ['#dedcd510', '#effefa'],
   border: ['#191919', '#f0f0f0'],
 
   background: ['#121212', '#f4faf3'],
@@ -73,12 +73,12 @@ export const DragonThemes = {
 
   lowBackground: ['#222', '#F1F0E9'],
   lowActiveBackground: ['#292929', '#E7E5DB'],
-  lowBorder: ['#252525', '#E7E5DB'],
+  lowBorder: ['#252525', '#f0f0f0'],
 
   comment: ['#758575dd', '#a0ada0'],
   string: ['#c98a7d', '#b56959'],
   variable: ['#bd976a', '#b07d48'],
-  keyword: ['#4d9375', '#34379f'],
+  keyword: ['#4d9375', '#8b08a0'],
   number: ['#4C9A91', '#1a6884'],
   boolean: ['#4d9375', '#1e754f'],
   operator: ['#cb7676', '#ab5959'],

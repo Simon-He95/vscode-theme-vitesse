@@ -60,9 +60,14 @@
         "path": "./themes/vitesse-dark-soft.json"
       },
       {
-        "label": "Vitesse Dragon",
-        "uiTheme": "vs-dark",
+        "label": "Vitesse Dragon Light",
+        "uiTheme": "vs",
         "path": "./themes/vitesse-Dragon.json"
+      },
+      {
+        "label": "Vitesse Dragon Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vitesse-Dragon-dark.json"
       }
     ]
   },
