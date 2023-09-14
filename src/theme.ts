@@ -4,7 +4,6 @@ import { getColors } from './primer'
 export default function getTheme({ style, name, soft = false, black = false, VitesseThemes }) {
   // Usage: `pick({ light: "lightblue", dark: "darkblue" })`
   const pick = options => options[style]
-  console.log({ name })
   const vitesse = (key: keyof typeof VitesseThemes, op = '') => pick({ light: VitesseThemes[key][1] + op, dark: VitesseThemes[key][0] + op })
 
   const primer = getColors(style)
