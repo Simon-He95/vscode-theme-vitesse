@@ -1,7 +1,7 @@
 {
   "name": "theme-vitesse",
-  "displayName": "Vitesse Theme",
-  "version": "0.6.1",
+  "displayName": "Vitesse Theme colorful",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.5.0",
   "description": "Vitesse theme for VS Code",
   "categories": [
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/antfu/vscode-theme-vitesse/issues"
   },
-  "publisher": "antfu",
+  "publisher": "simonhe",
   "scripts": {
     "build": "esno src/index.ts",
     "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
