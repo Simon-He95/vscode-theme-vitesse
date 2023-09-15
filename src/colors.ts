@@ -61,7 +61,7 @@ export const VitesseThemes = {
 // [dark, light]
 export const DragonThemes = {
   primary: ['#4a3c53', '#7c6490'],
-  foreground: ['#574563', '#4a3c53'],
+  foreground: ['#ffa2cb', '#4a3c53'],
   activeForeground: ['#bfbaaa', '#6c401b'],
   secondaryForeground: ['#dedcd590', '#c2861d'],
   ignored: ['#dedcd530', '#88aaa5'],
